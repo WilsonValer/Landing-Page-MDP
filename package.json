@@ -22,6 +22,7 @@
     "angular-animations": "^0.11.0",
     "angular-cli-ghpages": "^1.0.5",
     "aos": "^2.3.4",
+    "lodash-es": "^4.17.21",
     "ngx-scrollreveal": "^3.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

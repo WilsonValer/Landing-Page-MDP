@@ -7,6 +7,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NavbarComponent,
     LandingComponent,
 
+
     
   ],
   imports: [
 
     AppRoutingModule,
     BrowserAnimationsModule,
+    CommonModule,
+    BrowserModule
 
 
     
